@@ -164,7 +164,7 @@
             // 
             this.chơiMớiToolStripMenuItem.Name = "chơiMớiToolStripMenuItem";
             this.chơiMớiToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.chơiMớiToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.chơiMớiToolStripMenuItem.Size = new System.Drawing.Size(193, 26);
             this.chơiMớiToolStripMenuItem.Text = "Chơi mới";
             this.chơiMớiToolStripMenuItem.Click += new System.EventHandler(this.chơiMớiToolStripMenuItem_Click);
             // 
@@ -172,7 +172,7 @@
             // 
             this.lùiLạiToolStripMenuItem.Name = "lùiLạiToolStripMenuItem";
             this.lùiLạiToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.lùiLạiToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.lùiLạiToolStripMenuItem.Size = new System.Drawing.Size(193, 26);
             this.lùiLạiToolStripMenuItem.Text = "Lùi lại";
             this.lùiLạiToolStripMenuItem.Click += new System.EventHandler(this.lùiLạiToolStripMenuItem_Click);
             // 
@@ -180,7 +180,7 @@
             // 
             this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
             this.thoátToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(193, 26);
             this.thoátToolStripMenuItem.Text = "Thoát";
             this.thoátToolStripMenuItem.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
             // 

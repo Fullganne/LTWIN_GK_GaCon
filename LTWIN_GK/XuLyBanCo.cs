@@ -68,8 +68,8 @@ namespace LTWIN_GK
             this.playerMark = mark;
             this.player = new List<Player>() 
             {
-                new Player("AnGa", Image.FromFile(Application.StartupPath + "\\Resource\\P1.png")),
-                new Player("PhuVip", Image.FromFile(Application.StartupPath + "\\Resource\\P2.png"))
+                new Player("Player1", Image.FromFile(Application.StartupPath + "\\Resource\\P1.png")),
+                new Player("Player2", Image.FromFile(Application.StartupPath + "\\Resource\\P2.png"))
             };
             LichsuBuocDi = new Stack<ThongTinTroChoi>();
         }
