@@ -44,6 +44,9 @@
             this.chơiMớiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lùiLạiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thoátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.trợGiúpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hướngDẫnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nguồnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbImagePlayer)).BeginInit();
@@ -142,10 +145,11 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuToolStripMenuItem});
+            this.menuToolStripMenuItem,
+            this.trợGiúpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1175, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(1175, 28);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -157,14 +161,14 @@
             this.thoátToolStripMenuItem});
             this.menuToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(56, 21);
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(56, 24);
             this.menuToolStripMenuItem.Text = "Menu";
             // 
             // chơiMớiToolStripMenuItem
             // 
             this.chơiMớiToolStripMenuItem.Name = "chơiMớiToolStripMenuItem";
             this.chơiMớiToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.chơiMớiToolStripMenuItem.Size = new System.Drawing.Size(193, 26);
+            this.chơiMớiToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.chơiMớiToolStripMenuItem.Text = "Chơi mới";
             this.chơiMớiToolStripMenuItem.Click += new System.EventHandler(this.chơiMớiToolStripMenuItem_Click);
             // 
@@ -172,7 +176,7 @@
             // 
             this.lùiLạiToolStripMenuItem.Name = "lùiLạiToolStripMenuItem";
             this.lùiLạiToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.lùiLạiToolStripMenuItem.Size = new System.Drawing.Size(193, 26);
+            this.lùiLạiToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.lùiLạiToolStripMenuItem.Text = "Lùi lại";
             this.lùiLạiToolStripMenuItem.Click += new System.EventHandler(this.lùiLạiToolStripMenuItem_Click);
             // 
@@ -180,9 +184,35 @@
             // 
             this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
             this.thoátToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(193, 26);
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.thoátToolStripMenuItem.Text = "Thoát";
             this.thoátToolStripMenuItem.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
+            // 
+            // trợGiúpToolStripMenuItem
+            // 
+            this.trợGiúpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.hướngDẫnToolStripMenuItem,
+            this.nguồnToolStripMenuItem});
+            this.trợGiúpToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.trợGiúpToolStripMenuItem.Name = "trợGiúpToolStripMenuItem";
+            this.trợGiúpToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
+            this.trợGiúpToolStripMenuItem.Text = "Trợ giúp";
+            // 
+            // hướngDẫnToolStripMenuItem
+            // 
+            this.hướngDẫnToolStripMenuItem.Name = "hướngDẫnToolStripMenuItem";
+            this.hướngDẫnToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.H)));
+            this.hướngDẫnToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.hướngDẫnToolStripMenuItem.Text = "Hướng dẫn";
+            this.hướngDẫnToolStripMenuItem.Click += new System.EventHandler(this.hướngDẫnToolStripMenuItem_Click);
+            // 
+            // nguồnToolStripMenuItem
+            // 
+            this.nguồnToolStripMenuItem.Name = "nguồnToolStripMenuItem";
+            this.nguồnToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.C)));
+            this.nguồnToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.nguồnToolStripMenuItem.Text = "Nguồn";
+            this.nguồnToolStripMenuItem.Click += new System.EventHandler(this.nguồnToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -233,6 +263,9 @@
         private System.Windows.Forms.ToolStripMenuItem chơiMớiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lùiLạiToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thoátToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem trợGiúpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hướngDẫnToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nguồnToolStripMenuItem;
     }
 }
 

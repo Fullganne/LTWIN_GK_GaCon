@@ -232,5 +232,17 @@ namespace LTWIN_GK
             
             Listen();
         }
+
+        private void nguồnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ThongTin thongTin = new ThongTin();
+            thongTin.ShowDialog();
+        }
+
+        private void hướngDẫnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HuongDan huongDan = new HuongDan();
+            huongDan.ShowDialog();
+        }
     }
 }
