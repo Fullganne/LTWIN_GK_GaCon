@@ -75,7 +75,6 @@ namespace LTWIN_GK
             
             socket.Send(new SocketData((int)SocketCommand.SEND_POINT, "", e.ClickedPoint));
 
-            pnPlay.Enabled = true;
             lùiLạiToolStripMenuItem.Enabled = false;
             Listen();
         }

@@ -31,6 +31,7 @@ namespace LTWIN_GK
     {
         SEND_POINT,
         NOTIFY,
+        ADD_NAME,
         NEW_GAME,
         UNDO,
         END_GAME,
