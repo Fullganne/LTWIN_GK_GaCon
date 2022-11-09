@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -122,7 +123,11 @@ namespace LTWIN_GK
                 oldbtn.Height = 0;
             }
         }
-
+        private void playSoundOfClick()
+        {
+            SoundPlayer clickedSound = new SoundPlayer(Application.StartupPath + "\\SoundGame\\click.wav");
+            clickedSound.Play();
+        }
         private void Btn_Click(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
