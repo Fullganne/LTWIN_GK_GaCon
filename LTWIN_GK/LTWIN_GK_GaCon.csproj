@@ -105,6 +105,7 @@
   <ItemGroup>
     <Content Include="Resource\P1.png" />
     <Content Include="Resource\P2.png" />
+    <Content Include="SoundGame\click.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
